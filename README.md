@@ -5,6 +5,7 @@ Group project
 Algorithm
 Data structure
  By: Julien Barbier
+ Authors: Hassan and Ojeh.
  Weight: 2
  Project to be done in teams of 2 people (your team: Ojeh Agbaje, Hassan Ibrahim )
  Project will start Oct 17, 2023 6:00 AM, must end by Oct 20, 2023 6:00 AM
