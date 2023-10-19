@@ -9,7 +9,7 @@
  */
 void _push(stack_t **doubly, unsigned int cline)
 {
-	int n, j;
+	int i, j;
 
 	if (!vglo.arg)
 	{
@@ -31,12 +31,12 @@ void _push(stack_t **doubly, unsigned int cline)
 		j++;
 	}
 
-	n = atoi(vglo.arg);
+	i = atoi(vglo.arg);
 
 	if (vglo.lifo == 1)
-		add_dnodeint(doubly, n);
+		add_dnodeint(doubly, i);
 	else
-		add_dnodeint_end(doubly, n);
+		add_dnodeint_end(doubly, i);
 }
 
 /**
